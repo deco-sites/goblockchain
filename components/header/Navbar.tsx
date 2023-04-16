@@ -15,21 +15,18 @@ function Navbar({ items, searchbar }: {
     <>
       {/* Mobile Version */}
       <div
-        class={`md:hidden flex flex-row justify-between items-center h-[${navbarHeight}] border-b-1 border-default w-full px-2 gap-2`}
+        class={`md:hidden flex flex-row justify-between items-center h-[65px] border-b-1 border-default w-full px-2 py-2 gap-2`}
       >
-        <HeaderButton variant="menu" />
-
         <a
           href="/"
-          class={`flex-grow inline-flex items-center min-h-[${navbarHeight}]`}
+          class={`flex-grow inline-flex items-center min-h-[65px] pl-4`}
           aria-label="Store logo"
         >
           <Icon id="Logo" width={126} height={16} />
         </a>
 
         <div class="flex gap-1">
-          <HeaderButton variant="search" />
-          <HeaderButton variant="cart" />
+          <HeaderButton variant="menu" />
         </div>
       </div>
 

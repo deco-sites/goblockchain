@@ -71,7 +71,7 @@ const Modal = ({
     <dialog
       {...props}
       ref={ref}
-      class={`bg-transparent p-0 m-0 max-w-full w-full max-h-full h-full backdrop ${
+      class={`bg-transparent p-0 m-0 w-5/12 max-h-full h-full backdrop ${
         dialogStyles[mode]
       } ${props.class ?? ""}`}
       onClick={(e) =>
@@ -85,12 +85,9 @@ const Modal = ({
         <div
           class={`bg-default flex flex-col max-h-full ${containerStyles[mode]}`}
         >
-          <header class="flex px-4 py-6 justify-between items-center border-b-1 border-default">
-            <h1>
-              <Text variant="heading-2">{title}</Text>
-            </h1>
+          <header class="flex px-4 py-2 pt-3 justify-end items-center ">
             <Button variant="icon" onClick={onClose}>
-              <Icon id="XMark" width={20} height={20} strokeWidth={2} />
+              <Icon id="XMark" width={30} height={30} strokeWidth={2} />
             </Button>
           </header>
           <div class="overflow-y-auto flex-grow flex flex-col">

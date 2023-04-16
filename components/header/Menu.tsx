@@ -39,14 +39,14 @@ function MenuItem({ item, level = 0 }: { item: INavItem; level?: number }) {
           <Button variant="icon">
             <Icon
               class={open.value === true ? "hidden" : "block"}
-              id="Plus"
+              id="ChevronDown"
               height={20}
               width={20}
               strokeWidth={1.5}
             />
             <Icon
               class={open.value === true ? "block" : "hidden"}
-              id="Minus"
+              id="ChevronUp"
               height={20}
               width={20}
               strokeWidth={1.5}
@@ -79,47 +79,8 @@ function MenuItem({ item, level = 0 }: { item: INavItem; level?: number }) {
 function Menu({ items }: Props) {
   return (
     <>
-      <ul class="px-4 flex-grow flex flex-col divide-y divide-default">
+      <ul class="px-4 flex-grow flex flex-col divide-y divide-gray-200">
         {items.map((item) => <MenuItem item={item} />)}
-      </ul>
-
-      <ul class="flex flex-col py-2 bg-hover">
-        <li>
-          <a
-            class="flex items-center gap-4 px-4 py-2"
-            href="/wishlist"
-          >
-            <Icon id="Heart" width={20} height={20} strokeWidth={2} />
-            <Text variant="caption">Lista de desejos</Text>
-          </a>
-        </li>
-        <li>
-          <a
-            class="flex items-center gap-4 px-4 py-2"
-            href="https://www.deco.cx"
-          >
-            <Icon id="MapPin" width={20} height={20} strokeWidth={2} />
-            <Text variant="caption">Nossas lojas</Text>
-          </a>
-        </li>
-        <li>
-          <a
-            class="flex items-center gap-4 px-4 py-2"
-            href="https://www.deco.cx"
-          >
-            <Icon id="Phone" width={20} height={20} strokeWidth={2} />
-            <Text variant="caption">Fale conosco</Text>
-          </a>
-        </li>
-        <li>
-          <a
-            class="flex items-center gap-4 px-4 py-2"
-            href="https://www.deco.cx"
-          >
-            <Icon id="User" width={20} height={20} strokeWidth={2} />
-            <Text variant="caption">Minha conta</Text>
-          </a>
-        </li>
       </ul>
     </>
   );
