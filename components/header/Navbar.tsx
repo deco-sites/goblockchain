@@ -4,7 +4,6 @@ import Button from "deco-sites/fashion/components/ui/Button.tsx";
 
 import NavItem from "./NavItem.tsx";
 import { navbarHeight } from "./constants.ts";
-import HeaderSearchMenu from "deco-sites/fashion/islands/HeaderSearchMenu.tsx";
 import type { INavItem } from "./NavItem.tsx";
 import type { Props as SearchbarProps } from "deco-sites/fashion/components/search/Searchbar.tsx";
 
@@ -46,7 +45,6 @@ function Navbar({ items, searchbar }: {
         </div>
         <div class="flex-none w-44 flex items-center justify-end gap-2">
           <HeaderButton variant="search" />
-          <HeaderSearchMenu searchbar={searchbar} />
           <Button
             as="a"
             variant="icon"

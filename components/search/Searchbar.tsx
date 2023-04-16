@@ -13,7 +13,6 @@ import { useEffect, useRef } from "preact/compat";
 import Icon from "deco-sites/fashion/components/ui/Icon.tsx";
 import Text from "deco-sites/fashion/components/ui/Text.tsx";
 import Button from "deco-sites/fashion/components/ui/Button.tsx";
-import ProductCard from "deco-sites/fashion/components/product/ProductCard.tsx";
 import { Slider } from "deco-sites/fashion/components/ui/Slider.tsx";
 import { useAutocomplete } from "deco-sites/std/commerce/vtex/hooks/useAutocomplete.ts";
 import { useUI } from "deco-sites/fashion/sdk/useUI.ts";
@@ -188,29 +187,6 @@ function Searchbar({
               Vamos tentar de outro jeito? Verifique a ortografia ou use um
               termo diferente
             </Text>
-          </div>
-        )}
-        {_products && !emptySuggestions && (
-          <div class="flex flex-col pt-6 md:pt-0 gap-6 overflow-x-hidden">
-            <Text class="px-4" variant="heading-3">Produtos sugeridos</Text>
-            <Slider>
-              {_products.map((
-                product,
-                index,
-              ) => (
-                <div
-                  class={`${
-                    index === 0
-                      ? "ml-4"
-                      : index === _products.length - 1
-                      ? "mr-4"
-                      : ""
-                  } min-w-[200px] max-w-[200px]`}
-                >
-                  <ProductCard product={product} />
-                </div>
-              ))}
-            </Slider>
           </div>
         )}
       </div>
