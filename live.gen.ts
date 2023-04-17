@@ -10,8 +10,7 @@ import * as $$$$$0 from "./islands/HeaderButton.tsx";
 import * as $$$$$1 from "./islands/HeaderModals.tsx";
 import * as $$$$$2 from "./islands/SendEventButton.tsx";
 import * as $$$$$3 from "./islands/ShippingSimulation.tsx";
-import * as $$$$$4 from "./islands/SliderJS.tsx";
-import * as $$$$$5 from "./islands/ViewSendEvent.tsx";
+import * as $$$$$4 from "./islands/ViewSendEvent.tsx";
 import * as $$$$$$$$0 from "./sections/BannerGrid.tsx";
 import * as $$$$$$$$1 from "./sections/BannerPLP.tsx";
 import * as $$$$$$$$2 from "./sections/CookieConsent.tsx";
@@ -95,8 +94,7 @@ const manifest = {
     "./islands/HeaderModals.tsx": $$$$$1,
     "./islands/SendEventButton.tsx": $$$$$2,
     "./islands/ShippingSimulation.tsx": $$$$$3,
-    "./islands/SliderJS.tsx": $$$$$4,
-    "./islands/ViewSendEvent.tsx": $$$$$5,
+    "./islands/ViewSendEvent.tsx": $$$$$4,
   },
   "sections": {
     "deco-sites/goblockchain/sections/BannerGrid.tsx": $$$$$$$$0,
