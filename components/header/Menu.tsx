@@ -57,13 +57,6 @@ function MenuItem({ item, level = 0 }: { item: INavItem; level?: number }) {
 
       {hasChildren && (
         <ul class={`flex-col ${open.value === true ? "flex" : "hidden"}`}>
-          <li>
-            <a href={item.href} class="w-full py-2 pl-2 inline-block">
-              <Text class="underline" variant="caption">
-                Ver todos
-              </Text>
-            </a>
-          </li>
           {item.children!.map((node) => (
             <MenuItem
               item={node}

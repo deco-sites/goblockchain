@@ -62,9 +62,9 @@ export interface Props {
 
 function Footer({ sections = [] }: Props) {
   return (
-    <footer class="w-full bg-gray-700 flex flex-col md:flex-row justify-around items-center h-56 md:h-36 md:px-5">
+    <footer class="w-full bg-footer flex flex-col md:flex-row justify-around items-center h-56 md:h-36 md:px-5">
       {/* Desktop */}
-      <h1 class="md:hidden text-gray-400 text-lg text-center pt-6">
+      <h1 class="md:hidden text-footertxt text-lg text-center pt-6">
         Um produto
       </h1>
       <a
@@ -82,7 +82,7 @@ function Footer({ sections = [] }: Props) {
       </a>
       {/* Desktop */}
       <div class="hidden md:flex items-center gap-2">
-        <h1 class="text-gray-400 text-lg ">
+        <h1 class="text-footertxt text-lg ">
           Um produto
         </h1>
         <a
@@ -98,7 +98,7 @@ function Footer({ sections = [] }: Props) {
           />
         </a>
       </div>
-      <div class="mb-8 flex flex-col justify-center items-center gap-3 text-gray-400 text-lg">
+      <div class="flex flex-col mb-4 md:mb-0 lg:flex-row justify-center items-center gap-3 text-footertxt text-lg">
         <h1 class="truncate ">
           <span class="pr-2 hover:text-white transition cursor-pointer duration-500">
             Politica de privacidade

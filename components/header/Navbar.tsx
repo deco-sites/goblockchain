@@ -16,11 +16,11 @@ function Navbar({ items, searchbar }: {
     <>
       {/* Mobile Version */}
       <div
-        class={`lg:hidden flex flex-row justify-between items-center h-[65px] border-b-1 border-default w-full px-2 py-2 gap-2`}
+        class={` shadow-lg lg:hidden flex flex-row justify-between items-center h-[65px] border-b-1 border-default w-full px-2 py-2 gap-2`}
       >
         <a
           href="/"
-          class={`flex-grow inline-flex items-center min-h-[65px] pl-4`}
+          class={`flex-grow inline-flex items-center  pl-6`}
           aria-label="Store logo"
         >
           <Image
@@ -108,6 +108,9 @@ function Navbar({ items, searchbar }: {
             />
           </Button>
         </div>
+      </div>
+      <div class="hidden md:flex justify-center items-center bg-blue-400 h-12 cursor-pointer w-44 text-yellow-300 absolute right-16 rounded-b-lg">
+        Fale com a gente
       </div>
     </>
   );

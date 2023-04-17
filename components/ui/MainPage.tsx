@@ -28,16 +28,16 @@ function MainPage({ title }: Props) {
             height={519}
           />
         </div>
-        <div class="hidden w-1/2 md:block">
+        <div class="hidden w-1/2 md:block mt-10">
           <Image
-            class=" mx-auto"
+            class=" mx-auto "
             src={"https://goblockchain.io/wp-content/uploads/2023/04/myway_mao-403x1024.png.webp"}
             alt={"myway mão"}
             width={403}
             height={1024}
           />
         </div>
-        <div class="w-1/4 py-8  flex flex-col items-start md:justify-start">
+        <div class="lg:w-1/4 w-1/2 py-8 pr-3 md:pr-0 flex flex-col items-start md:justify-start">
           <h1 class="hidden md:block font-extrabold text-4xl italic text-left py-6">
             Aceito em todos os <p>universos e metaversos.</p>
           </h1>
@@ -45,8 +45,11 @@ function MainPage({ title }: Props) {
             Moedas, comunidades, NFTs, benefícios, descontos e recompensas, tudo
             funcionando do seu jeito em um cartão de débito normal.
           </h1>
-          <button class="bg-red-200 px-5 py-2 italic font-extrabold hover:scale-110 transition duration-300">
+          <button class="md:hidden bg-red-200 px-5 py-2 italic font-extrabold hover:scale-110 transition duration-300">
             Pedir meu cartão
+          </button>
+          <button class="hidden md:block bg-red-200 px-5 py-3 italic font-extrabold hover:scale-110 transition duration-300">
+            Quero um cartão MyWay
           </button>
           <p class="text-sm font-medium mt-5 md:text-white md:text-lg">
             Entre para a lista de espera.
@@ -73,7 +76,7 @@ function MainPage({ title }: Props) {
       </div>
       {/* White Banner Section */}
       <div class="bg-white w-full min-w-full h-52 md:h-40 md:flex flex-row justify-center items-center ">
-        <h1 class="italic text-green-300 font-extrabold text-lg text-center py-4">
+        <h1 class="italic text-parceiros font-extrabold text-lg text-center py-4">
           Parceiros
         </h1>
         <div class="w-full flex flex-row justify-around md:w-1/2">
