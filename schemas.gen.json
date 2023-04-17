@@ -2760,6 +2760,18 @@
             },
             {
               "type": "string",
+              "const": "USFlag"
+            },
+            {
+              "type": "string",
+              "const": "BRFlag"
+            },
+            {
+              "type": "string",
+              "const": "SPFlag"
+            },
+            {
+              "type": "string",
               "const": "ArrowsPointingOut"
             }
           ],
@@ -2955,6 +2967,18 @@
             {
               "type": "string",
               "const": "WhatsApp"
+            },
+            {
+              "type": "string",
+              "const": "USFlag"
+            },
+            {
+              "type": "string",
+              "const": "BRFlag"
+            },
+            {
+              "type": "string",
+              "const": "SPFlag"
             },
             {
               "type": "string",
@@ -4150,22 +4174,6 @@
         }
       }
     },
-    "Li9pc2xhbmRzL1NsaWRlckpTLnRzeA==": {
-      "title": "./islands/SliderJS.tsx",
-      "type": "object",
-      "required": [
-        "__resolveType"
-      ],
-      "properties": {
-        "__resolveType": {
-          "type": "string",
-          "enum": [
-            "./islands/SliderJS.tsx"
-          ],
-          "default": "./islands/SliderJS.tsx"
-        }
-      }
-    },
     "Li9pc2xhbmRzL1ZpZXdTZW5kRXZlbnQudHN4": {
       "title": "./islands/ViewSendEvent.tsx",
       "type": "object",
@@ -4993,9 +5001,6 @@
         },
         {
           "$ref": "#/definitions/Li9pc2xhbmRzL1NoaXBwaW5nU2ltdWxhdGlvbi50c3g="
-        },
-        {
-          "$ref": "#/definitions/Li9pc2xhbmRzL1NsaWRlckpTLnRzeA=="
         },
         {
           "$ref": "#/definitions/Li9pc2xhbmRzL1ZpZXdTZW5kRXZlbnQudHN4"

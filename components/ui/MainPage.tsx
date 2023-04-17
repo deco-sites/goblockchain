@@ -75,11 +75,11 @@ function MainPage({ title }: Props) {
         </div>
       </div>
       {/* White Banner Section */}
-      <div class="bg-white w-full min-w-full h-52 md:h-40 md:flex flex-row justify-center items-center ">
-        <h1 class="italic text-parceiros font-extrabold text-lg text-center py-4">
+      <div class="bg-white w-full min-w-full h-52 md:h-40 md:flex flex-row justify-center items-center">
+        <h1 class="italic text-parceiros font-extrabold text-lg lg:text-3xl text-center py-4">
           Parceiros
         </h1>
-        <div class="w-full flex flex-row justify-around md:w-1/2">
+        <div class="w-full flex flex-row justify-around md:w-1/2 lg:w-1/3">
           <Image
             class=""
             src={"https://goblockchain.io/wp-content/uploads/2022/12/logo-foxbit.png.webp"}
