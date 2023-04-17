@@ -3281,6 +3281,19 @@
       "required": [],
       "title": "deco-sites/goblockchain\\components\\ui\\LinkTree.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9nb2Jsb2NrY2hhaW5cY29tcG9uZW50c1x1aVxNYWluUGFnZS50c3g=@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "deco-sites/goblockchain\\components\\ui\\MainPage.tsx@Props"
+    },
     "ZGVjby1jeC9saXZlL3NlY3Rpb25zL1BhZ2VJbmNsdWRlLnRzeA==@Props": {
       "type": "object",
       "properties": {
@@ -4432,6 +4445,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9nb2Jsb2NrY2hhaW4vc2VjdGlvbnMvTWFpblBhZ2VTZWN0aW9uLnRzeA==": {
+      "title": "deco-sites/goblockchain/sections/MainPageSection.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9nb2Jsb2NrY2hhaW5cY29tcG9uZW50c1x1aVxNYWluUGFnZS50c3g=@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/goblockchain/sections/MainPageSection.tsx"
+          ],
+          "default": "deco-sites/goblockchain/sections/MainPageSection.tsx"
+        }
+      }
+    },
     "JGxpdmUvc2VjdGlvbnMvUGFnZUluY2x1ZGUudHN4": {
       "title": "$live/sections/PageInclude.tsx",
       "type": "object",
@@ -5028,6 +5062,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9nb2Jsb2NrY2hhaW4vc2VjdGlvbnMvTGlua1RyZWUudHN4"
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9nb2Jsb2NrY2hhaW4vc2VjdGlvbnMvTWFpblBhZ2VTZWN0aW9uLnRzeA=="
         },
         {
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvUGFnZUluY2x1ZGUudHN4"

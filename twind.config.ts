@@ -168,6 +168,10 @@ const options: Omit<Options, "selfURL"> = {
     "max-h-min": {
       "max-height": "min-content",
     },
+    "main-page-bg": {
+      "background-image":
+        "linear-gradient(-115deg,#009ec6, #5bd7d5, #f3e4e4, #f4c2cf )",
+    },
     "snap": ([mod]) => ({ "scroll-snap-align": mod }),
     "grid-cols": gridCols,
     "grid-rows": gridRows,

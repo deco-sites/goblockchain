@@ -26,12 +26,13 @@ function MenuButton() {
   return (
     <Button
       variant="icon"
+      class="text-blue-400 hover:text-green-400"
       aria-label="open menu"
       onClick={() => {
         displayMenu.value = true;
       }}
     >
-      <Icon id="Bars3" width={20} height={20} strokeWidth={0.01} />
+      <Icon id="Bars3" width={40} height={40} strokeWidth={1} />
     </Button>
   );
 }

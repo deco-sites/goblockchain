@@ -20,6 +20,7 @@ import * as $$$$$$$$4 from "./sections/Features.tsx";
 import * as $$$$$$$$5 from "./sections/Footer.tsx";
 import * as $$$$$$$$6 from "./sections/Header.tsx";
 import * as $$$$$$$$7 from "./sections/LinkTree.tsx";
+import * as $$$$$$$$8 from "./sections/MainPageSection.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -106,6 +107,7 @@ const manifest = {
     "deco-sites/goblockchain/sections/Footer.tsx": $$$$$$$$5,
     "deco-sites/goblockchain/sections/Header.tsx": $$$$$$$$6,
     "deco-sites/goblockchain/sections/LinkTree.tsx": $$$$$$$$7,
+    "deco-sites/goblockchain/sections/MainPageSection.tsx": $$$$$$$$8,
     "$live/sections/PageInclude.tsx": i2$$$9,
     "deco-sites/std/sections/configYourViews.global.tsx": i2$$$0,
     "deco-sites/std/sections/SEO.tsx": i2$$$1,

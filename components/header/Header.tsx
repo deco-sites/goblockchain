@@ -58,7 +58,7 @@ function Header(
 ) {
   const searchbar = { ..._searchbar, products, suggestions };
   return (
-    <header class={`h-[${headerHeight}]`}>
+    <header class="h-[65px]">
       <div class="bg-default fixed w-full z-50 shadow-lg">
         <Navbar items={navItems} searchbar={searchbar} />
       </div>
