@@ -36,7 +36,14 @@ export type AvailableIcons =
   | "WhatsApp"
   | "USFlag"
   | "BRFlag"
+  | "Github"
+  | "Facebook2"
+  | "Youtube"
+  | "Linkedin"
+  | "Meetup2"
   | "SPFlag"
+  | "Meetup"
+  | "Medium"
   | "ArrowsPointingOut";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
